@@ -123,7 +123,7 @@
             class="img-responsive" />
     </div>
     <div class="col-md-12 text-center d-flex justify-content-center butoes ">
-        <button onclick="location.href='https://www.gala.aeiscte-iul.pt/inscrever'"
+        <button onclick="location.href='https://www.village.aeiscte-iul.pt/inscrever'"
             class="btn btn-sm nav-link nav-link-ltr" style="font-weight:bold; color:#e30613;background-color: var(--bs-btn-hover-bg);
     border-color: var(--bs-btn-hover-border-color);padding:0.5rem;">Pré-Inscrição</button>
 
