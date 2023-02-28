@@ -128,9 +128,13 @@
     border-color: var(--bs-btn-hover-border-color);padding:0.5rem;">Pré-Inscrição</button>
 
         <button formtarget="_blank"
-            onclick="location.href='https://www.gala.aeiscte-iul.pt/pdf/Guia de Inscrição - Gala 23.pdf'"
+            onclick="location.href='https://village.aeiscte-iul.pt/pdf/Guia de Inscrições - Iscte Village.pdf'"
             class="btn btn-sm nav-link nav-link-ltr" style="margin-left:2rem;font-weight:bold; color:#e30613;background-color: var(--bs-btn-hover-bg);
     border-color: var(--bs-btn-hover-border-color);padding:0.5rem;">Guia de Inscrições</button>
+    <button formtarget="_blank"
+            onclick="location.href='https://village.aeiscte-iul.pt/pdf/Registration Guide - Iscte Village.pdf'"
+            class="btn btn-sm nav-link nav-link-ltr" style="margin-left:2rem;font-weight:bold; color:#e30613;background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);padding:0.5rem;">Registration Guide</button>
     </div>
     <div class="col-md-12 text-center vamos">
         <img src="img/Logo_Branco_Simples.png" style="padding-top: 11vh;width: 5rem;" alt="Example image"
