@@ -174,40 +174,40 @@
                             <div class="tab-pane fade show active" id="tabs-7-1">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <p style="font-size:1.1rem; color:#162e44"><b>Quando?</b>
+                                        <p style="font-size:1.1rem; color:#000"><b>Quando?</b>
                                             <br>
                                             <img src="img/todos/cronometro (1).png" alt="" style="height:1.5rem;">
-                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#162e44">De 28 de abril
+                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#000">De 28 de abril
                                                 a 1 de maio (3 noites)</b>
                                         </p>
                                     </div>
                                     <div class="col-md-6">
-                                        <p style="font-size:1.1rem;color:#162e44"><b>Onde?</b>
+                                        <p style="font-size:1.1rem;color:#000"><b>Onde?</b>
                                             <br>
                                             <img src="img/todos/placeholder.png" alt="" style="height:1.5rem;">
-                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#162e44">Apartamentos
+                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#000">Apartamentos
                                                 Leo, Punta Umbria</b>
                                         </p>
                                     </div>
 
                                     <div class="col-md-6">
-                                        <p style="font-size:1.1rem;color:#162e44"><b>Quanto?</b><br>
+                                        <p style="font-size:1.1rem;color:#000"><b>Quanto?</b><br>
                                             <img src="img/todos/dinheiro.png" alt="" style="height:1.5rem;">
-                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#162e44"> 90 AEs / 80
+                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#000"> 90 AEs / 80
                                                 AEs para sócios e bolseiros</b>
                                         </p>
                                     </div>
                                     <div class="col-md-6">
-                                        <p style="font-size:1.1rem;color:#162e44"><b>Método de Pagamento:</b><br>
+                                        <p style="font-size:1.1rem;color:#000"><b>Método de Pagamento:</b><br>
                                             <img src="img/time.png" alt="" style="height:2rem;">
-                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#162e44">2
+                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#000">2
                                                 prestações</b>
                                         </p>
                                     </div>
                                     <div class="col-md-6">
-                                        <p style="font-size:1.1rem;color:#162e44"><b>Participantes por quarto</b><br>
+                                        <p style="font-size:1.1rem;color:#000"><b>Participantes por quarto</b><br>
                                             <img src="img/todos/standing-up-man-.png" alt="" style="height:1.2rem;">
-                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#162e44">4</b>
+                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#000">4</b>
                                         </p>
                                     </div>
                                 </div>
@@ -224,7 +224,7 @@
 </section>
 
 <section class="container" style="margin-top:3rem;margin-bottom:3rem;">
-    <h4 style="color:#0f1748cc !important;margin-bottom:2rem;text-align:center;">Perguntas Frequentes</h4>
+    <h4 style="color:#000 !important;margin-bottom:2rem;text-align:center;">Perguntas Frequentes</h4>
 
     <div class=" shadow" id="accordionFlushExample">
         <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
