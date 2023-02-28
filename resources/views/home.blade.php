@@ -230,7 +230,7 @@
     </div>
 </section>
 
-<section class="container" style="margin-top:3rem;margin-bottom:3rem;">
+<section class="container" id="FAQ" style="margin-top:3rem;margin-bottom:3rem;">
     <h4 style="color:#000 !important;margin-bottom:2rem;text-align:center;">Perguntas Frequentes</h4>
 
     <div class=" shadow" id="accordionFlushExample">
@@ -435,8 +435,9 @@
                 <div style="margin:0.8rem;" id="flush-collapse9" class="accordion-collapse collapse"
                     aria-labelledby="flush-heading9" data-bs-parent="#accordionFlushExample">
                     <div style="padding:1.4rem;" class="accordion-body">
-                        <p> As horas da partida são às 15:00 h e que dps anunciaremos a hora do check-in que começará
-                            durante o meio da manhã.
+                        <p> A partida do ISCTE acontecerá por volta das 15:00 horas da tarde. <br>
+                            A hora do check-in que terá início durante a manhã será anunciada em breve.
+
                         </p>
                     </div>
                 </div>
@@ -653,7 +654,7 @@
 
 
 
-<div class="container">
+<div class="container" id="anos_anteriores">
     <h4 style="color:#000 !important;margin-bottom:2rem;text-align:center;">👀 Edição anterior...</h4>
 
     <div class="tz-gallery">
