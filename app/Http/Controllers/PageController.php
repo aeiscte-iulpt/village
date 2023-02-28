@@ -11,15 +11,21 @@ use Illuminate\Support\Facades\Mail;
 class PageController extends Controller
 {
     public function home(Request $request){
-           
+        $codigo = $request->query('code');
+        if ($codigo=="12345678910abcdefghijklmnopkrstuvxz") {
             return view('home');
-    
+        }else{
+            echo "Não tens autorização";
+        }
+        
     }
     public function inscrever(Request $request){
         $codigo = $request->query('code');
-        
+        if ($codigo=="12345678910abcdefghijklmnopkrstuvxz") {
             return view('inscrever');
-        
+        }else{
+            echo "Não tens autorização";
+        }
     }
     public function inscricao(Request $request){
        
