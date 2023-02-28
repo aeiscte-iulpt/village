@@ -150,7 +150,7 @@
             <div class="col-md-10 col-lg-5 col-xl-6">
                 <!--<img style="border-radius:15px;" class="shadow"
                     src="img/todos/IMG_1766.jpg" alt="" height="" />-->
-                <iframe class="map" style="border-radius:10px !important;width:600px;"
+                <iframe class="map" style="border-radius:10px !important;width:550px;"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2060.6517718561627!2d-6.985455943945796!3d37.18887549342892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd11d1384b90b62f%3A0x494096f8c29fe8ff!2sAparta%20Hotel%20LEO!5e1!3m2!1spt-PT!2spt!4v1677547145603!5m2!1spt-PT!2spt"
                     height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
