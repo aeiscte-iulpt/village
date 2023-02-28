@@ -2,7 +2,6 @@
 
 @section('content')
 <style>
-
 .breadcrumbs-custom {
     position: relative;
     overflow: hidden;
@@ -89,12 +88,15 @@
 }
 </style>
 <!-- Breadcrumbs -->
-<section class="breadcrumbs-custom-inset" style="margin-top:3rem;">
-    <div class="breadcrumbs-custom context-dark bg-overlay-60">
+<section class="breadcrumbs-custom-inset">
+    <div class="breadcrumbs-custom context-dark bg-overlay-60" style="height:20rem !important">
         <div class="container">
-            <h2 class="breadcrumbs-custom-title">Inscrições</h2>
+            <h2 class="breadcrumbs-custom-title shadow"
+                style="position:absolute; top:40%;right:0;bottom:0;left:0; color:#fdc929"><b>INSCRIÇÕES</b></h2>
         </div>
-        <div class="box-position" style="background-color:#e6c492;"></div>
+        <div class="box-position"
+            style="background:url('https://village.aeiscte-iul.pt/img/todos/IMG_1766.jpg');background-size:cover;background-position:center;">
+        </div>
     </div>
 </section>
 <!-- Why choose us-->
@@ -294,10 +296,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12">
-                    <button type="submit" class="btn btn-sm nav-link nav-link-ltr" style="margin-top:2rem;padding:0.8rem;width:30%;font-weight:bold; color:#cbae73;background-color:rgba(15,23,72,0.9); ;
+
+                <button type="submit" class="btn btn-sm nav-link nav-link-ltr" style="margin-top:2rem;padding:0.8rem;width:30%;font-weight:bold; color:#e30613;background-color:var(--bs-btn-hover-bg);
     border-color: var(--bs-btn-hover-border-color);">Inscrever</button>
-                </div>
+
             </form>
         </div>
     </div>

@@ -35,8 +35,8 @@ body {
 }
 
 .btn:hover {
-    background-color: rgba(203, 174, 115, 0.8) !important;
-    color: rgb(15, 23, 72) !important;
+    background-color: rgb(250 183 0) !important;
+    color: rgb(227 6 19) !important;
 }
 </style>
 
