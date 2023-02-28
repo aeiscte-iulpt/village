@@ -228,7 +228,7 @@
             </div>
         </div>
         <div class="row row-50 justify-content-center align-items-xl-center">
-            <h4 style="color:#000 !important;margin-bottom:2rem;text-align:center;">Datas Frequentes</h4>
+            <h4 style="color:#000 !important;margin-bottom:2rem;text-align:center;">Datas Importantes</h4>
             <div class="col-md-3">
             </div>
             <div class="col-md-6">
@@ -245,10 +245,6 @@
                         <tr>
                             <th scope="row">Alumni (caso haja vagas)</th>
                             <td>16 de março (9h-12h)</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Externos (caso haja vagas)</th>
-                            <td>16 de março (12h-17h)</td>
                         </tr>
                         <tr>
                             <th scope="row">1º Prestação</th>
