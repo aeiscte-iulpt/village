@@ -199,7 +199,7 @@
                                     <div class="col-md-3">
                                         <label for="inputCity" class="form-label">Contacto de Emergência<b
                                                 style="color:#cf1c29">*</b></label>
-                                        <input required type="text" name="phone_emerg1" class="form-control"
+                                        <input placeholder="(982434342- Mãe)" required type="text" name="phone_emerg1" class="form-control"
                                             id="inputCity">
                                     </div>
 
@@ -303,7 +303,7 @@
                                     <div class="col-md-3">
                                         <label for="inputCity" class="form-label">Contacto de Emergência<b
                                                 style="color:#cf1c29">*</b></label>
-                                        <input required type="text" name="phone_emerg2" class="form-control"
+                                        <input placeholder="(982434342- Mãe)" required type="text" name="phone_emerg2" class="form-control"
                                             id="inputCity">
                                     </div>
 
@@ -408,7 +408,7 @@
                                     <div class="col-md-3">
                                         <label for="inputCity" class="form-label">Contacto de Emergência<b
                                                 style="color:#cf1c29">*</b></label>
-                                        <input required type="text" name="phone_emerg3" class="form-control"
+                                        <input placeholder="(982434342- Mãe)" required type="text" name="phone_emerg3" class="form-control"
                                             id="inputCity">
                                     </div>
 
@@ -513,7 +513,7 @@
                                     <div class="col-md-3">
                                         <label for="inputCity" class="form-label">Contacto de Emergência<b
                                                 style="color:#cf1c29">*</b></label>
-                                        <input required type="text" name="phone_emerg4" class="form-control"
+                                        <input placeholder="(982434342- Mãe)" required type="text" name="phone_emerg4" class="form-control"
                                             id="inputCity">
                                     </div>
 
