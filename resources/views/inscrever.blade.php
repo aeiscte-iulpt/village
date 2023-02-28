@@ -86,6 +86,20 @@
 .features .tab-pane h3 {
     padding-bottom: 0px;
 }
+
+.tx {
+    text-decoration: none !important;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.accordion-button:hover {
+    color: #cf1c29 !important;
+}
+
+.tx:hover {}
 </style>
 <!-- Breadcrumbs -->
 <section class="breadcrumbs-custom-inset">
@@ -101,29 +115,48 @@
 </section>
 <!-- Why choose us-->
 <section class="container" style="margin-top:3rem;margin-bottom:3rem;">
-    <div class="card shadow" id="accordionFlushExample">
-        <div class="card-header text-center">
+    <div class="card shadow" id="accordionFlushExample" style="border: 0;">
+        <div class="card-header text-center" style="border: 0;">
             <h4>Formulário de inscrição</h4>
         </div>
         <div class="card-body" style="padding:3rem;">
+            @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
 
+                    <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+            @endif
+            @if (Session::get('erro'))
+            <div class="alert alert-danger">
+                <strong>{{Session::get('erro')}}</strong>
+            </div>
+            @endif
+            @if (Session::get('success'))
+            <div class="alert alert-success alert-block">
+                <strong>{{Session::get('success')}}</strong>
+            </div>
+            @endif
             <form id="form-submit" class="row g-3" action="{{ url('/inscricao-2023') }}" method="post">
                 @csrf
                 <div class="col-md-3"></div>
 
                 <div class="col-md-6 text-center">
-                    <label for="inputEmail4" class="form-label">Nome do Quarto</label>
-                    <input type="text" name="nome_mesa" class="form-control" id="inputEmail4">
+                    <label for="inputEmail4" class="form-label">Nome do Quarto <b style="color:#cf1c29">*</b></label>
+                    <input type="text" name="nome_quarto" class="form-control" id="inputEmail4">
                 </div>
-                <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;"
-                    id="accordionFlushExample">
+                <div class="accordion accordion-flush shadow"
+                    style="padding:0.2rem;border-radius:10px;margin-top:0.6rem" id="accordionFlushExample">
                     <div class="accordion-item">
                         <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading1">
                             <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse2">
                                 <div style=" display:flex;align-items: center;justify-content: space-between;">
                                     <ul>
-                                        <li><i class="bi bi-check2-all"></i>Dados do Responsável</li>
+                                        <li class="tx"><i class="bi bi-check2-all"></i>Dados do Responsável</li>
                                     </ul>
                                 </div>
                             </a>
@@ -133,34 +166,85 @@
                             <div style="padding:1.4rem;" class="accordion-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="inputEmail4" class="form-label">Nome</label>
-                                        <input required type="text" name="nome9" class="form-control" id="inputEmail4">
+                                        <label for="inputEmail4" class="form-label">Nome<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="nome1" class="form-control" id="inputEmail4">
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="inputPassword4" class="form-label">Email</label>
-                                        <input required type="email" name="email9" class="form-control"
+                                        <label for="inputPassword4" class="form-label">Email<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="email" name="email1" class="form-control"
                                             id="inputPassword4">
                                     </div>
+
                                     <div class="col-md-3">
-                                        <label for="inputCity" class="form-label">Contacto Móvel</label>
-                                        <input required type="text" name="phone9" class="form-control" id="inputCity">
+                                        <label for="inputCity" class="form-label">Data de Nascimento<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="date" name="date1" class="form-control" id="inputCity">
                                     </div>
                                     <div class="col-md-3">
-                                        <label for="inputCity" class="form-label">Contacto de Emergência</label>
-                                        <input required type="text" name="intolerante9" class="form-control"
+                                        <label for="inputCity" class="form-label">Nº de Documento de
+                                            Identificação<b style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="ndi1" class="form-control" id="inputCity">
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Contacto Móvel<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="phone1" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Contacto de Emergência<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="phone_emerg1" class="form-control"
                                             id="inputCity">
                                     </div>
-                                    <div class="col-md-4">
-                                        <label for="inputState" class="form-label">És Vegetariano?</label>
-                                        <select required name="is_vegan9" id="inputState" class="form-select">
+
+                                    <div class="col-md-2">
+                                        <label for="inputState" class="form-label">Situação Atual<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <select required name="situacao1" id="inputState" class="form-select">
                                             <option value="" disabled selected>Seleciona uma opção..</option>
-                                            <option value="1">Sim</option>
-                                            <option value="0">Não</option>
+                                            <option value="Atual Aluno">Atual Aluno</option>
+                                            <option value="Alumni">Alumni</option>
+                                            <option value="Externo">Externo</option>
                                         </select>
                                     </div>
                                     <div class="col-md-2">
-                                        <label for="inputZip" class="form-label">Nº Aluno</label>
-                                        <input required name="aluno9" type="text" class="form-control" id="inputZip">
+                                        <label for="inputZip" class="form-label">Nº Aluno<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required name="n_aluno1" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputState" class="form-label">Transporte<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <select required name="transporte1" id="inputState" class="form-select">
+                                            <option value="" disabled selected>Seleciona uma opção..</option>
+                                            <option value="Autocarro">Autocarro</option>
+                                            <option value="Transporte Privado">Transporte Privado</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <label for="inputZip" class="form-label">Curso<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required name="curso1" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputZip" class="form-label">Ano Curricular<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required name="ano_cu1" type="text" class="form-control" id="inputZip">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="inputZip" class="form-label">Condição de Saúde (alergias, doenças,
+                                            etc)</label>
+                                        <input name="saude1" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputZip" class="form-label">Número de identificação do Cartão
+                                            Europeu de Saúde (caso tenhas):</label>
+                                        <input name="nices1" type="text" class="form-control" id="inputZip">
                                     </div>
                                 </div>
                             </div>
@@ -176,7 +260,7 @@
                                 data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
                                 <div style=" display:flex;align-items: center;justify-content: space-between;">
                                     <ul>
-                                        <li><i class="bi bi-check2-all"></i>Membro 2</li>
+                                        <li class="tx"><i class="bi bi-check2-all"></i>Membro 2</li>
                                     </ul>
                                 </div>
                             </a>
@@ -184,27 +268,89 @@
                         <div style="margin:0.8rem;" id="flush-collapse2" class="accordion-collapse collapse"
                             aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
                             <div style="padding:1.4rem;" class="accordion-body">
-                                <p>Siga os passos para fazer um pedido: <br><br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Nome<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="nome2" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Email<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="email" name="email2" class="form-control"
+                                            id="inputPassword4">
+                                    </div>
 
-                                    1. Insira o endereço para recolha e entrega
-                                    <br>
-                                    2. Pode optar por fazê-lo como um pedido imediato ou um pedido agendado
-                                    com base nas suas necessidades<br>
-                                    -> Pedido imediato: o motorista irá fazer a recolha num período máximo
-                                    de 30 minutos<br>
-                                    -> Pedido agendado: pode selecionar o horário de 30 minutos até 30
-                                    dias<br>
-                                    3. Escolha o tipo de serviço que pretende e selecione 1 de 3 serviços
-                                    disponíveis.
-                                    <br>
-                                    4. Se houver alguma informação de referência que queira fornecer ao
-                                    motorista, pode adicioná-la.
-                                    <br>
-                                    5. Confirme as informações de contato e selecione a sua forma de
-                                    pagamento.
-                                    <br>
-                                    6. Clique em "Fazer pedido" e nós tratamos de tudo com o motorista
-                                </p>
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Data de Nascimento<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="date" name="date2" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Nº de Documento de
+                                            Identificação<b style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="ndi2" class="form-control" id="inputCity">
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Contacto Móvel<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="phone2" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Contacto de Emergência<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="phone_emerg2" class="form-control"
+                                            id="inputCity">
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <label for="inputState" class="form-label">Situação Atual<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <select required name="situacao2" id="inputState" class="form-select">
+                                            <option value="" disabled selected>Seleciona uma opção..</option>
+                                            <option value="Atual Aluno">Atual Aluno</option>
+                                            <option value="Alumni">Alumni</option>
+                                            <option value="Externo">Externo</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputZip" class="form-label">Nº Aluno<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required name="n_aluno2" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputState" class="form-label">Transporte<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <select required name="transporte2" id="inputState" class="form-select">
+                                            <option value="" disabled selected>Seleciona uma opção..</option>
+                                            <option value="Autocarro">Autocarro</option>
+                                            <option value="Transporte Privado">Transporte Privado</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <label for="inputZip" class="form-label">Curso<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required name="curso2" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputZip" class="form-label">Ano Curricular<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required name="ano_cu2" type="text" class="form-control" id="inputZip">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="inputZip" class="form-label">Condição de Saúde (alergias, doenças,
+                                            etc)</label>
+                                        <input name="saude2" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputZip" class="form-label">Número de identificação do Cartão
+                                            Europeu de Saúde (caso tenhas):</label>
+                                        <input name="nices2" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
@@ -219,7 +365,7 @@
                                 data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse2">
                                 <div style=" display:flex;align-items: center;justify-content: space-between;">
                                     <ul>
-                                        <li><i class="bi bi-check2-all"></i>Membro 3</li>
+                                        <li class="tx"><i class="bi bi-check2-all"></i>Membro 3</li>
                                     </ul>
                                 </div>
                             </a>
@@ -227,27 +373,89 @@
                         <div style="margin:0.8rem;" id="flush-collapse3" class="accordion-collapse collapse"
                             aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
                             <div style="padding:1.4rem;" class="accordion-body">
-                                <p>Siga os passos para fazer um pedido: <br><br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Nome<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="nome3" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Email<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="email" name="email3" class="form-control"
+                                            id="inputPassword4">
+                                    </div>
 
-                                    1. Insira o endereço para recolha e entrega
-                                    <br>
-                                    2. Pode optar por fazê-lo como um pedido imediato ou um pedido agendado
-                                    com base nas suas necessidades<br>
-                                    -> Pedido imediato: o motorista irá fazer a recolha num período máximo
-                                    de 30 minutos<br>
-                                    -> Pedido agendado: pode selecionar o horário de 30 minutos até 30
-                                    dias<br>
-                                    3. Escolha o tipo de serviço que pretende e selecione 1 de 3 serviços
-                                    disponíveis.
-                                    <br>
-                                    4. Se houver alguma informação de referência que queira fornecer ao
-                                    motorista, pode adicioná-la.
-                                    <br>
-                                    5. Confirme as informações de contato e selecione a sua forma de
-                                    pagamento.
-                                    <br>
-                                    6. Clique em "Fazer pedido" e nós tratamos de tudo com o motorista
-                                </p>
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Data de Nascimento<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="date" name="date3" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Nº de Documento de
+                                            Identificação<b style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="ndi3" class="form-control" id="inputCity">
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Contacto Móvel<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="phone3" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Contacto de Emergência<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="phone_emerg3" class="form-control"
+                                            id="inputCity">
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <label for="inputState" class="form-label">Situação Atual<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <select required name="situacao3" id="inputState" class="form-select">
+                                            <option value="" disabled selected>Seleciona uma opção..</option>
+                                            <option value="Atual Aluno">Atual Aluno</option>
+                                            <option value="Alumni">Alumni</option>
+                                            <option value="Externo">Externo</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputZip" class="form-label">Nº Aluno<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required name="n_aluno3" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputState" class="form-label">Transporte<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <select required name="transporte3" id="inputState" class="form-select">
+                                            <option value="" disabled selected>Seleciona uma opção..</option>
+                                            <option value="Autocarro">Autocarro</option>
+                                            <option value="Transporte Privado">Transporte Privado</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <label for="inputZip" class="form-label">Curso<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required name="curso3" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputZip" class="form-label">Ano Curricular<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required name="ano_cu3" type="text" class="form-control" id="inputZip">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="inputZip" class="form-label">Condição de Saúde (alergias, doenças,
+                                            etc)</label>
+                                        <input name="saude3" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputZip" class="form-label">Número de identificação do Cartão
+                                            Europeu de Saúde (caso tenhas):</label>
+                                        <input name="nices3" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
@@ -262,7 +470,7 @@
                                 data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse2">
                                 <div style=" display:flex;align-items: center;justify-content: space-between;">
                                     <ul>
-                                        <li><i class="bi bi-check2-all"></i>Membro 4</li>
+                                        <li class="tx"><i class="bi bi-check2-all"></i>Membro 4</li>
                                     </ul>
                                 </div>
                             </a>
@@ -270,37 +478,107 @@
                         <div style="margin:0.8rem;" id="flush-collapse4" class="accordion-collapse collapse"
                             aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
                             <div style="padding:1.4rem;" class="accordion-body">
-                                <p>Siga os passos para fazer um pedido: <br><br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Nome<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="nome4" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Email<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="email" name="email4" class="form-control"
+                                            id="inputPassword4">
+                                    </div>
 
-                                    1. Insira o endereço para recolha e entrega
-                                    <br>
-                                    2. Pode optar por fazê-lo como um pedido imediato ou um pedido agendado
-                                    com base nas suas necessidades<br>
-                                    -> Pedido imediato: o motorista irá fazer a recolha num período máximo
-                                    de 30 minutos<br>
-                                    -> Pedido agendado: pode selecionar o horário de 30 minutos até 30
-                                    dias<br>
-                                    3. Escolha o tipo de serviço que pretende e selecione 1 de 3 serviços
-                                    disponíveis.
-                                    <br>
-                                    4. Se houver alguma informação de referência que queira fornecer ao
-                                    motorista, pode adicioná-la.
-                                    <br>
-                                    5. Confirme as informações de contato e selecione a sua forma de
-                                    pagamento.
-                                    <br>
-                                    6. Clique em "Fazer pedido" e nós tratamos de tudo com o motorista
-                                </p>
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Data de Nascimento<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="date" name="date4" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Nº de Documento de
+                                            Identificação<b style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="ndi4" class="form-control" id="inputCity">
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Contacto Móvel<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="phone4" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="inputCity" class="form-label">Contacto de Emergência<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required type="text" name="phone_emerg4" class="form-control"
+                                            id="inputCity">
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <label for="inputState" class="form-label">Situação Atual<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <select required name="situacao4" id="inputState" class="form-select">
+                                            <option value="" disabled selected>Seleciona uma opção..</option>
+                                            <option value="Atual Aluno">Atual Aluno</option>
+                                            <option value="Alumni">Alumni</option>
+                                            <option value="Externo">Externo</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputZip" class="form-label">Nº Aluno<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required name="n_aluno4" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputState" class="form-label">Transporte<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <select required name="transporte4" id="inputState" class="form-select">
+                                            <option value="" disabled selected>Seleciona uma opção..</option>
+                                            <option value="Autocarro">Autocarro</option>
+                                            <option value="Transporte Privado">Transporte Privado</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <label for="inputZip" class="form-label">Curso<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required name="curso4" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputZip" class="form-label">Ano Curricular<b
+                                                style="color:#cf1c29">*</b></label>
+                                        <input required name="ano_cu4" type="text" class="form-control" id="inputZip">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="inputZip" class="form-label">Condição de Saúde (alergias, doenças,
+                                            etc)</label>
+                                        <input name="saude4" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputZip" class="form-label">Número de identificação do Cartão
+                                            Europeu de Saúde (caso tenhas):</label>
+                                        <input name="nices4" type="text" class="form-control" id="inputZip">
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" required value="1" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        <b style="color:#cf1c29">*</b>Declaro que li, concordo e aceito toda a informação presente no
+                        guia de inscrição relativa ao
+                        pagamento do fim de semana e ao funcionamento da caução do alojamento
+                    </label>
+                </div>
                 <button type="submit" class="btn btn-sm nav-link nav-link-ltr" style="margin-top:2rem;padding:0.8rem;width:30%;font-weight:bold; color:#e30613;background-color:var(--bs-btn-hover-bg);
     border-color: var(--bs-btn-hover-border-color);">Inscrever</button>
 
             </form>
+
         </div>
     </div>
 </section>

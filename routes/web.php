@@ -19,3 +19,5 @@ Route::get('/', function () {
 Route::get('/inscrever', function () {
     return view('inscrever');
 });
+Route::post('/inscricao-2023', [App\Http\Controllers\PageController::class, 'inscricao'])->name('inscricao');
+
