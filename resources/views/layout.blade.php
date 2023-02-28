@@ -64,6 +64,13 @@ body {
                         <a class="nav-link nav-link-ltr" style="font-weight:bold; color:#fff;" href="#sobre">Sobre
                             nós</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-ltr" style="font-weight:bold; color:#fff;" href="#FAQ">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-ltr" style="font-weight:bold; color:#fff;" href="#anos_anteriores">Anos Anteriores</a>
+                    </li>
+
 
                     <li class="nav-item">
                         <button onclick="location.href='https://www.village.aeiscte-iul.pt/inscrever'"
