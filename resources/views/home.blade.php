@@ -184,7 +184,7 @@
                                         <p style="font-size:1.1rem; color:#000"><b>Quando?</b>
                                             <br>
                                             <img src="img/todos/cronometro (1).png" alt="" style="height:1.5rem;">
-                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#000">De 28 de abril
+                                            <b style="margin-left:0.4rem;font-size:0.85rem; color:#000">De 28 de abril
                                                 a 1 de maio (3 noites)</b>
                                         </p>
                                     </div>
@@ -192,7 +192,7 @@
                                         <p style="font-size:1.1rem;color:#000"><b>Onde?</b>
                                             <br>
                                             <img src="img/todos/placeholder.png" alt="" style="height:1.5rem;">
-                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#000">Apartamentos
+                                            <b style="margin-left:0.4rem;font-size:0.85rem; color:#000">Apartamentos
                                                 Leo, Punta Umbria</b>
                                         </p>
                                     </div>
@@ -200,21 +200,21 @@
                                     <div class="col-md-6">
                                         <p style="font-size:1.1rem;color:#000"><b>Quanto?</b><br>
                                             <img src="img/todos/dinheiro.png" alt="" style="height:1.5rem;">
-                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#000"> 90 AEs / 80
+                                            <b style="margin-left:0.4rem;font-size:0.85rem; color:#000"> 90 AEs / 80
                                                 AEs para sócios e bolseiros</b>
                                         </p>
                                     </div>
                                     <div class="col-md-6">
                                         <p style="font-size:1.1rem;color:#000"><b>Método de Pagamento:</b><br>
                                             <img src="img/time.png" alt="" style="height:2rem;">
-                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#000">2
+                                            <b style="margin-left:0.4rem;font-size:0.85rem; color:#000">2
                                                 prestações</b>
                                         </p>
                                     </div>
                                     <div class="col-md-6">
                                         <p style="font-size:1.1rem;color:#000"><b>Participantes por quarto</b><br>
                                             <img src="img/todos/standing-up-man-.png" alt="" style="height:1.2rem;">
-                                            <b style="margin-left:0.8rem;font-size:0.9rem; color:#000">4</b>
+                                            <b style="margin-left:0.4rem;font-size:0.85rem; color:#000">4</b>
                                         </p>
                                     </div>
                                 </div>
