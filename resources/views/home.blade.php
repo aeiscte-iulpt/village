@@ -227,8 +227,51 @@
                 </div>
             </div>
         </div>
+        <div class="row row-50 justify-content-center align-items-xl-center">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6">
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <th scope="row">Pré-Inscrições</th>
+                            <td>1 a 10 de março</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Inscrições (Alunos Atuais)</th>
+                            <td>15 de março</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Alumni (caso haja vagas)</th>
+                            <td>16 de março (9h-12h)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Externos (caso haja vagas)</th>
+                            <td>16 de março (12h-17h)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1º Prestação</th>
+                            <td>20 a 24 de março</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2º Prestação</th>
+                            <td>17 a 21 de abril</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">FDS + Caução</th>
+                            <td>28 de abril a 1 de maio</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
     </div>
+
+
 </section>
+
 
 <section class="container" id="FAQ" style="margin-top:3rem;margin-bottom:3rem;">
     <h4 style="color:#000 !important;margin-bottom:2rem;text-align:center;">Perguntas Frequentes</h4>
