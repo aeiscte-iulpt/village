@@ -119,7 +119,8 @@
 
 <div class=" versa1 landing-hero" style="width:100%;background-image: url('img/site-pc.png');">
     <div class="col-md-12 text-center vamos2">
-        <img src="img/logo principal.png" style="padding-top: 15vh;width: 22rem;" alt="Example image" class="img-responsive" />
+        <img src="img/logo principal.png" style="padding-top: 15vh;width: 22rem;" alt="Example image"
+            class="img-responsive" />
     </div>
     <div class="col-md-12 text-center d-flex justify-content-center butoes ">
         <button onclick="location.href='https://www.gala.aeiscte-iul.pt/inscrever'"
@@ -427,7 +428,8 @@
                 <div style="margin:0.8rem;" id="flush-collapse9" class="accordion-collapse collapse"
                     aria-labelledby="flush-heading9" data-bs-parent="#accordionFlushExample">
                     <div style="padding:1.4rem;" class="accordion-body">
-                        <p> As horas serão anunciadas brevemente.
+                        <p> As horas da partida são às 15:00 h e que dps anunciaremos a hora do check-in que começará
+                            durante o meio da manhã.
                         </p>
                     </div>
                 </div>
