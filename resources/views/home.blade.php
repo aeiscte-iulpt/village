@@ -125,18 +125,18 @@
     <div class="col-md-12 text-center d-flex justify-content-center butoes ">
         <button formtarget="_blank"
             onclick="location.href='https://village.aeiscte-iul.pt/pdf/Registration Guide - Iscte Village.pdf'"
-            class="btn btn-sm nav-link nav-link-ltr" style="margin-top:font-weight:bold; color:#e30613;background-color: var(--bs-btn-hover-bg);
+            class="btn btn-sm nav-link nav-link-ltr" style="font-weight:bold; color:#e30613;background-color: var(--bs-btn-hover-bg);
     border-color: var(--bs-btn-hover-border-color);padding:0.5rem;">Registration Guide</button>
 
         <button formtarget="_blank"
             onclick="location.href='https://village.aeiscte-iul.pt/pdf/Guia de Inscrições - Iscte Village.pdf'"
-            class="btn btn-sm nav-link nav-link-ltr" style="margin-left:2rem;font-weight:bold; color:#e30613;background-color: var(--bs-btn-hover-bg);
+            class="btn btn-sm nav-link nav-link-ltr" style="margin-left:1rem;font-weight:bold; color:#e30613;background-color: var(--bs-btn-hover-bg);
     border-color: var(--bs-btn-hover-border-color);padding:0.5rem;">Guia de Inscrições</button>
 
     </div>
     <div class="col-md-12 text-center d-flex justify-content-center butoes ">
         <button onclick="location.href='https://www.village.aeiscte-iul.pt/inscrever'"
-            class="btn btn-sm nav-link nav-link-ltr" style="font-weight:bold; color:#e30613;background-color: var(--bs-btn-hover-bg);
+            class="btn btn-sm nav-link nav-link-ltr" style="margin-top:1rem;font-weight:bold; color:#e30613;background-color: var(--bs-btn-hover-bg);
     border-color: var(--bs-btn-hover-border-color);padding:0.5rem;">Pré-Inscrição</button>
     </div>
     <div class="col-md-12 text-center vamos">
