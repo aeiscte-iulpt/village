@@ -645,9 +645,13 @@
 </style>
 
 <div class="container">
-    <div class="o-video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HAHZuKUF8ow" frameborder="0"
-            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="o-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HAHZuKUF8ow" frameborder="0"
+                allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-3"></div>
     </div>
 </div>
 
