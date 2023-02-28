@@ -33,7 +33,7 @@ body {
 }
 
 .nav-item {
-    margin-right: 5rem;
+    margin-right: 1rem;
 }
 
 .btn:hover {
