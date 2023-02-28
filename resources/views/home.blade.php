@@ -119,7 +119,7 @@
 
 <div class=" versa1 landing-hero" style="width:100%;background-image: url('img/site-pc.png');">
     <div class="col-md-12 text-center vamos2">
-        <img src="img/logo principal.png" style="padding-top: 15vh;width: 22rem;" alt="Example image"
+        <img src="img/logo principal.png" style="padding-top: 15vh;width: 16rem;" alt="Example image"
             class="img-responsive" />
     </div>
     <div class="col-md-12 text-center d-flex justify-content-center butoes ">
