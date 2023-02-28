@@ -238,7 +238,7 @@
                                                                     <div style="font-size:0px;"><img class=t90
                                                                             style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;"
                                                                             width=130
-                                                                            src="https://village.aeiscte-iul.pt/public/img/logo%20IV.png" />
+                                                                            src="https://village.aeiscte-iul.pt/img/logo%20IV.png" />
                                                                     </div>
                                                                 </td>
                                                             </tr>
