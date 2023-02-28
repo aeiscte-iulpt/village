@@ -13,11 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-Route::get('/inscrever', function () {
-    return view('inscrever');
-});
+
+Route::get('/inscrever', [App\Http\Controllers\PageController::class, 'inscrever'])->name('inscrever');
+Route::get('/', [App\Http\Controllers\PageController::class, 'home'])->name('home');
+
 Route::post('/inscricao-2023', [App\Http\Controllers\PageController::class, 'inscricao'])->name('inscricao');
 
