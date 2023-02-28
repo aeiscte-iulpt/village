@@ -165,7 +165,7 @@
                         <!-- Nav tabs-->
                         <ul class="nav nav-tabs" style="border-bottom: 0px ;">
                             <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab">
-                                    <h4 style="color:#0f1748cc !important">Sobre o Iscte Village...</h4>
+                                    <h4 style="color:#000 !important">Sobre o Iscte Village...</h4>
                                 </a></li>
 
                         </ul>
