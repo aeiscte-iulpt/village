@@ -653,7 +653,7 @@
 
 
 <div class="container">
-    <h4 style="color:#0f1748cc !important;margin-bottom:2rem;text-align:center;">👀 Edição anterior...</h4>
+    <h4 style="color:#000 !important;margin-bottom:2rem;text-align:center;">👀 Edição anterior...</h4>
 
     <div class="tz-gallery">
 
