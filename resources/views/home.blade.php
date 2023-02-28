@@ -180,7 +180,7 @@
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="tabs-7-1">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-8">
                                         <p style="font-size:1.1rem; color:#000"><b>Quando?</b>
                                             <br>
                                             <img src="img/todos/cronometro (1).png" alt="" style="height:1.5rem;">
@@ -188,7 +188,7 @@
                                                 a 1 de maio (3 noites)</b>
                                         </p>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-8">
                                         <p style="font-size:1.1rem;color:#000"><b>Onde?</b>
                                             <br>
                                             <img src="img/todos/placeholder.png" alt="" style="height:1.5rem;">
@@ -197,7 +197,7 @@
                                         </p>
                                     </div>
 
-                                    <div class="col-md-6">
+                                    <div class="col-md-8">
                                         <p style="font-size:1.1rem;color:#000"><b>Quanto?</b><br>
                                             <img src="img/todos/dinheiro.png" alt="" style="height:1.5rem;">
                                             <b style="margin-left:0.4rem;font-size:0.85rem; color:#000"> 90 AEs / 80
