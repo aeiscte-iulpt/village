@@ -73,7 +73,7 @@ body {
 
 
                     <li class="nav-item">
-                        <button onclick="location.href='https://www.village.aeiscte-iul.pt/inscrever'"
+                        <button onclick="location.href='https://www.village.aeiscte-iul.pt/preinscricao'"
                             class="btn btn-sm nav-link nav-link-ltr" style="font-weight:bold; color:#e30613;background-color: var(--bs-btn-hover-bg);
     border-color: var(--bs-btn-hover-border-color);">Pré-Inscrição</button>
 
