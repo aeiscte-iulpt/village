@@ -109,10 +109,10 @@
                 style="position:absolute; top:40%;right:0;bottom:0;left:0; color:#fdc929"><b>PRÉ-INSCRIÇÕES</b></h2>
         </div>
         <div class="box-po" style="background: #0000007d; width: 111%;height: 217%;margin-top: -7rem !important;">
-        
-        <div class="box-position"
-            style="background:url('https://village.aeiscte-iul.pt/img/todos/IMG_1766.jpg');background-size:cover;background-position:center;">
-        </div>
+
+            <div class="box-position"
+                style="background:url('https://village.aeiscte-iul.pt/img/todos/IMG_1766.jpg');background-size:cover;background-position:center;">
+            </div>
         </div>
     </div>
 </section>
@@ -199,8 +199,8 @@
                                     <div class="col-md-3">
                                         <label for="inputCity" class="form-label">Contacto de Emergência<b
                                                 style="color:#cf1c29">*</b></label>
-                                        <input placeholder="(982434342- Mãe)" required type="text" name="phone_emerg1" class="form-control"
-                                            id="inputCity">
+                                        <input placeholder="(982434342- Mãe)" required type="text" name="phone_emerg1"
+                                            class="form-control" id="inputCity">
                                     </div>
 
                                     <div class="col-md-2">
@@ -210,7 +210,7 @@
                                             <option value="" disabled selected>Seleciona uma opção..</option>
                                             <option value="Atual Aluno">Atual Aluno</option>
                                             <option value="Alumni">Alumni</option>
-                                          
+
                                         </select>
                                     </div>
                                     <div class="col-md-2">
@@ -303,8 +303,8 @@
                                     <div class="col-md-3">
                                         <label for="inputCity" class="form-label">Contacto de Emergência<b
                                                 style="color:#cf1c29">*</b></label>
-                                        <input placeholder="(982434342- Mãe)" required type="text" name="phone_emerg2" class="form-control"
-                                            id="inputCity">
+                                        <input placeholder="(982434342- Mãe)" required type="text" name="phone_emerg2"
+                                            class="form-control" id="inputCity">
                                     </div>
 
                                     <div class="col-md-2">
@@ -314,7 +314,7 @@
                                             <option value="" disabled selected>Seleciona uma opção..</option>
                                             <option value="Atual Aluno">Atual Aluno</option>
                                             <option value="Alumni">Alumni</option>
-                                            
+
                                         </select>
                                     </div>
                                     <div class="col-md-2">
@@ -408,8 +408,8 @@
                                     <div class="col-md-3">
                                         <label for="inputCity" class="form-label">Contacto de Emergência<b
                                                 style="color:#cf1c29">*</b></label>
-                                        <input placeholder="(982434342- Mãe)" required type="text" name="phone_emerg3" class="form-control"
-                                            id="inputCity">
+                                        <input placeholder="(982434342- Mãe)" required type="text" name="phone_emerg3"
+                                            class="form-control" id="inputCity">
                                     </div>
 
                                     <div class="col-md-2">
@@ -419,7 +419,7 @@
                                             <option value="" disabled selected>Seleciona uma opção..</option>
                                             <option value="Atual Aluno">Atual Aluno</option>
                                             <option value="Alumni">Alumni</option>
-                                            
+
                                         </select>
                                     </div>
                                     <div class="col-md-2">
@@ -513,8 +513,8 @@
                                     <div class="col-md-3">
                                         <label for="inputCity" class="form-label">Contacto de Emergência<b
                                                 style="color:#cf1c29">*</b></label>
-                                        <input placeholder="(982434342- Mãe)" required type="text" name="phone_emerg4" class="form-control"
-                                            id="inputCity">
+                                        <input placeholder="(982434342- Mãe)" required type="text" name="phone_emerg4"
+                                            class="form-control" id="inputCity">
                                     </div>
 
                                     <div class="col-md-2">
@@ -524,7 +524,7 @@
                                             <option value="" disabled selected>Seleciona uma opção..</option>
                                             <option value="Atual Aluno">Atual Aluno</option>
                                             <option value="Alumni">Alumni</option>
-                                            
+
                                         </select>
                                     </div>
                                     <div class="col-md-2">
@@ -582,8 +582,163 @@
 
             </form>
 
+
+
         </div>
     </div>
 </section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+document.querySelector('form').addEventListener('submit', function() {
+    document.getElementById('spinner-overlay').style.display = 'flex';
+});
+</script>
+
+
+
+<style>
+#spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.pl,
+.pl__worm {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.pl {
+    animation-name: bump;
+    animation-timing-function: linear;
+    width: 8em;
+    height: 8em;
+}
+
+.pl__ring {
+    stroke: hsla(var(--hue), 10%, 10%, 0.1);
+    transition: stroke 0.3s;
+}
+
+.pl__worm {
+    animation-name: worm;
+    animation-timing-function: cubic-bezier(0.42, 0.17, 0.75, 0.83);
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: hsl(var(--hue), 10%, 10%);
+        --fg: hsl(var(--hue), 10%, 90%);
+    }
+
+    .pl__ring {
+        stroke: hsla(var(--hue), 10%, 90%, 0.1);
+    }
+}
+
+/* Animations */
+@keyframes bump {
+
+    from,
+    42%,
+    46%,
+    51%,
+    55%,
+    59%,
+    63%,
+    67%,
+    71%,
+    74%,
+    78%,
+    81%,
+    85%,
+    88%,
+    92%,
+    to {
+        transform: translate(0, 0);
+    }
+
+    44% {
+        transform: translate(1.33%, 6.75%);
+    }
+
+    53% {
+        transform: translate(-16.67%, -0.54%);
+    }
+
+    61% {
+        transform: translate(3.66%, -2.46%);
+    }
+
+    69% {
+        transform: translate(-0.59%, 15.27%);
+    }
+
+    76% {
+        transform: translate(-1.92%, -4.68%);
+    }
+
+    83% {
+        transform: translate(9.38%, 0.96%);
+    }
+
+    90% {
+        transform: translate(-4.55%, 1.98%);
+    }
+}
+
+@keyframes worm {
+    from {
+        stroke-dashoffset: 10;
+    }
+
+    25% {
+        stroke-dashoffset: 295;
+    }
+
+    to {
+        stroke-dashoffset: 1165;
+    }
+}
+</style>
+
+<div id="spinner-overlay" style="display: none;">
+    <div id="spinner">
+        <svg class="pl" viewBox="0 0 128 128" width="128px" height="128px" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="pl-grad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="hsl(193,90%,55%)" />
+                    <stop offset="100%" stop-color="hsl(223,90%,55%)" />
+                </linearGradient>
+            </defs>
+            <circle class="pl__ring" r="56" cx="64" cy="64" fill="none" stroke="hsla(0,10%,10%,0.1)" stroke-width="16"
+                stroke-linecap="round" />
+            <path class="pl__worm"
+                d="M92,15.492S78.194,4.967,66.743,16.887c-17.231,17.938-28.26,96.974-28.26,96.974L119.85,59.892l-99-31.588,57.528,89.832L97.8,19.349,13.636,88.51l89.012,16.015S81.908,38.332,66.1,22.337C50.114,6.156,36,15.492,36,15.492a56,56,0,1,0,56,0Z"
+                fill="none" stroke="url(#pl-grad)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"
+                stroke-dasharray="44 1111" stroke-dashoffset="10" />
+        </svg>
+    </div>
+</div>
 
 @endsection
