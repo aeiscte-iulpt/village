@@ -82,7 +82,7 @@ class PageController extends Controller
            /** colocar 200 */
         
    
-            if(!isset($inscrito1) && !isset($inscrito2) && !isset($inscrito3) && !isset($inscrito4) && !isset($inscrito5) && !isset($inscrito6) && !isset($inscrito7) && !isset($inscrito8) && !isset($inscrito9) && !isset($inscrito10)){
+            if(!isset($inscrito1) && !isset($inscrito2) && !isset($inscrito3) && !isset($inscrito4)){
                 $code=Str::random(8);
                 $users1 = new Inscritos;
                 $users1->nome_quarto   = $request->nome_quarto;
