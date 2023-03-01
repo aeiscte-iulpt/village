@@ -292,333 +292,373 @@
                     aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
                     <div style="padding:1.4rem;" class="accordion-body">
                         <p> Disponibilizamos neste site todas as informações que precisas para te inscreveres no melhor
-                            fim de semana do teu ano. <a href="https://village.aeiscte-iul.pt/pdf/Guia de Inscrições - Iscte Village.pdf">Clica aqui</a> para seres direcionado para o Guia de
+                            fim de semana do teu ano. <a
+                                href="https://village.aeiscte-iul.pt/pdf/Guia de Inscrições - Iscte Village.pdf">Clica
+                                aqui</a> para seres direcionado para o Guia de
                             Inscrição.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" shadow" id="accordionFlushExample">
+            <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading20">
+                        <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse20" aria-expanded="false" aria-controls="flush-collapse20">
+                            <div style=" display:flex;align-items: center;justify-content: space-between;">
+                                <ul>
+                                    <li><i class="bi bi-check2-all"></i>A inscrição está aberta a alunos externos?
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </h3>
+                    <div style="margin:0.8rem;" id="flush-collapse20" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading20" data-bs-parent="#accordionFlushExample">
+                        <div style="padding:1.4rem;" class="accordion-body">
+                            <p> Não, a inscrição está apenas aberta para atuais e antigos alunos do iscte.
                             </p>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
-            id="accordionFlushExample">
-            <div class="accordion-item">
-                <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading1">
-                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
-                        <div style=" display:flex;align-items: center;justify-content: space-between;">
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i>Como são os apartamentos?
-                                </li>
-                            </ul>
                         </div>
-                    </a>
-                </h3>
-                <div style="margin:0.8rem;" id="flush-collapse1" class="accordion-collapse collapse"
-                    aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
-                    <div style="padding:1.4rem;" class="accordion-body">
-                        <p> Os apartamentos vão ser formados por grupos de <b>4 pessoas</b>. Os apartamentos dispõem de
-                            um
-                            microondas, um fogão, frigorífico, torradeira, máquina de café e utensílios para cozinhar.
-                            <br>
-                            Além disso, também têm toalhas, roupa de cama e um kit de limpeza.
-                        </p>
-
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
-            id="accordionFlushExample">
-            <div class="accordion-item">
-                <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading4">
-                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collaps4">
-                        <div style=" display:flex;align-items: center;justify-content: space-between;">
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i>Onde posso fazer compras?
 
-                                </li>
-                            </ul>
+            <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading1">
+                        <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                            <div style=" display:flex;align-items: center;justify-content: space-between;">
+                                <ul>
+                                    <li><i class="bi bi-check2-all"></i>Como são os apartamentos?
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </h3>
+                    <div style="margin:0.8rem;" id="flush-collapse1" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
+                        <div style="padding:1.4rem;" class="accordion-body">
+                            <p> Os apartamentos vão ser formados por grupos de <b>4 pessoas</b>. Os apartamentos dispõem
+                                de
+                                um
+                                microondas, um fogão, frigorífico, torradeira, máquina de café e utensílios para
+                                cozinhar.
+                                <br>
+                                Além disso, também têm toalhas, roupa de cama e um kit de limpeza.
+                            </p>
+
                         </div>
-                    </a>
-                </h3>
-                <div style="margin:0.8rem;" id="flush-collapse4" class="accordion-collapse collapse"
-                    aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
-                    <div style="padding:1.4rem;" class="accordion-body">
-                        <p> Sugerimos que leves las provisiones de Lisboa, contudo, existe um Mercadona, a cerca de 20
-                            minutos a pé e um Burger King a 5 minutos. Os apartamentos dispõem de um microondas, um
-                            fogão, frigorífico e utensílios para cozinhar.
-                        </p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
-            id="accordionFlushExample">
-            <div class="accordion-item">
-                <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading5">
-                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collaps5">
-                        <div style=" display:flex;align-items: center;justify-content: space-between;">
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i>Qual é o valor da caução?</li>
-                            </ul>
+            <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading4">
+                        <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collaps4">
+                            <div style=" display:flex;align-items: center;justify-content: space-between;">
+                                <ul>
+                                    <li><i class="bi bi-check2-all"></i>Onde posso fazer compras?
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </h3>
+                    <div style="margin:0.8rem;" id="flush-collapse4" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
+                        <div style="padding:1.4rem;" class="accordion-body">
+                            <p> Sugerimos que leves las provisiones de Lisboa, contudo, existe um Mercadona, a cerca de
+                                20
+                                minutos a pé e um Burger King a 5 minutos. Os apartamentos dispõem de um microondas, um
+                                fogão, frigorífico e utensílios para cozinhar.
+                            </p>
                         </div>
-                    </a>
-                </h3>
-                <div style="margin:0.8rem;" id="flush-collapse5" class="accordion-collapse collapse"
-                    aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
-                    <div style="padding:1.4rem;" class="accordion-body">
-                        <p> A caução terá o valor de <b>50€ por pessoa</b>, que te será devolvido no final do
-                            fim-de-semana se
-                            não existirem danos no quarto.
-                        </p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
-            id="accordionFlushExample">
-            <div class="accordion-item">
-                <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading6">
-                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collaps6">
-                        <div style=" display:flex;align-items: center;justify-content: space-between;">
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i>Se eu quiser mudar algo na minha inscrição, posso
-                                    fazê-lo?
-                                </li>
-                            </ul>
+            <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading5">
+                        <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collaps5">
+                            <div style=" display:flex;align-items: center;justify-content: space-between;">
+                                <ul>
+                                    <li><i class="bi bi-check2-all"></i>Qual é o valor da caução?</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </h3>
+                    <div style="margin:0.8rem;" id="flush-collapse5" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
+                        <div style="padding:1.4rem;" class="accordion-body">
+                            <p> A caução terá o valor de <b>50€ por pessoa</b>, que te será devolvido no final do
+                                fim-de-semana se
+                                não existirem danos no quarto.
+                            </p>
                         </div>
-                    </a>
-                </h3>
-                <div style="margin:0.8rem;" id="flush-collapse6" class="accordion-collapse collapse"
-                    aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
-                    <div style="padding:1.4rem;" class="accordion-body">
-                        <p> Sim, só tens que te dirigir à secretaria para o fazer. Caso não consigas dirigir-te à
-                            secretaria, pedimos que nos envies um email para <a
-                                href="mailto:fimdesemana@aeiscte-iul.pt">fimdesemana@aeiscte-iul.pt</a>, contudo, a
-                            resposta por email pode demorar um pouco mais do que se fores à secretaria.
-                        </p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
-            id="accordionFlushExample">
-            <div class="accordion-item">
-                <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading7">
-                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collaps7">
-                        <div style=" display:flex;align-items: center;justify-content: space-between;">
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i>Posso escolher o meu quarto?</li>
-                            </ul>
+            <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading6">
+                        <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collaps6">
+                            <div style=" display:flex;align-items: center;justify-content: space-between;">
+                                <ul>
+                                    <li><i class="bi bi-check2-all"></i>Se eu quiser mudar algo na minha inscrição,
+                                        posso
+                                        fazê-lo?
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </h3>
+                    <div style="margin:0.8rem;" id="flush-collapse6" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
+                        <div style="padding:1.4rem;" class="accordion-body">
+                            <p> Sim, só tens que te dirigir à secretaria para o fazer. Caso não consigas dirigir-te à
+                                secretaria, pedimos que nos envies um email para <a
+                                    href="mailto:fimdesemana@aeiscte-iul.pt">fimdesemana@aeiscte-iul.pt</a>, contudo, a
+                                resposta por email pode demorar um pouco mais do que se fores à secretaria.
+                            </p>
                         </div>
-                    </a>
-                </h3>
-                <div style="margin:0.8rem;" id="flush-collapse7" class="accordion-collapse collapse"
-                    aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample">
-                    <div style="padding:1.4rem;" class="accordion-body">
-                        <p> Não, os quartos são atribuídos de forma aleatória a cada grupo.
-                        </p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
-            id="accordionFlushExample">
-            <div class="accordion-item">
-                <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading8">
-                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collaps8">
-                        <div style=" display:flex;align-items: center;justify-content: space-between;">
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i>Posso inscrever-me se o meu grupo tiver menos ou
-                                    mais de 4 elementos?</li>
-                            </ul>
+            <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading7">
+                        <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collaps7">
+                            <div style=" display:flex;align-items: center;justify-content: space-between;">
+                                <ul>
+                                    <li><i class="bi bi-check2-all"></i>Posso escolher o meu quarto?</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </h3>
+                    <div style="margin:0.8rem;" id="flush-collapse7" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample">
+                        <div style="padding:1.4rem;" class="accordion-body">
+                            <p> Não, os quartos são atribuídos de forma aleatória a cada grupo.
+                            </p>
                         </div>
-                    </a>
-                </h3>
-                <div style="margin:0.8rem;" id="flush-collapse8" class="accordion-collapse collapse"
-                    aria-labelledby="flush-heading8" data-bs-parent="#accordionFlushExample">
-                    <div style="padding:1.4rem;" class="accordion-body">
-                        <p> Não, todos os grupos são de 4 elementos.
-                        </p>
                     </div>
                 </div>
             </div>
-        </div>
 
-
-        <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
-            id="accordionFlushExample">
-            <div class="accordion-item">
-                <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading9">
-                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collaps9">
-                        <div style=" display:flex;align-items: center;justify-content: space-between;">
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i>A que horas é a partida no dia 28 de abril?</li>
-                            </ul>
+            <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading8">
+                        <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collaps8">
+                            <div style=" display:flex;align-items: center;justify-content: space-between;">
+                                <ul>
+                                    <li><i class="bi bi-check2-all"></i>Posso inscrever-me se o meu grupo tiver menos ou
+                                        mais de 4 elementos?</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </h3>
+                    <div style="margin:0.8rem;" id="flush-collapse8" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading8" data-bs-parent="#accordionFlushExample">
+                        <div style="padding:1.4rem;" class="accordion-body">
+                            <p> Não, todos os grupos são de 4 elementos.
+                            </p>
                         </div>
-                    </a>
-                </h3>
-                <div style="margin:0.8rem;" id="flush-collapse9" class="accordion-collapse collapse"
-                    aria-labelledby="flush-heading9" data-bs-parent="#accordionFlushExample">
-                    <div style="padding:1.4rem;" class="accordion-body">
-                        <p> A partida do ISCTE acontecerá por volta das 15:00 horas da tarde. <br>
-                            A hora do check-in que terá início durante a manhã será anunciada em breve.
-
-                        </p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
-            id="accordionFlushExample">
-            <div class="accordion-item">
-                <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading10">
-                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collaps10">
-                        <div style=" display:flex;align-items: center;justify-content: space-between;">
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i>O que é que está incluído?
-                                </li>
-                            </ul>
+
+            <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading9">
+                        <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collaps9">
+                            <div style=" display:flex;align-items: center;justify-content: space-between;">
+                                <ul>
+                                    <li><i class="bi bi-check2-all"></i>A que horas é a partida no dia 28 de abril?</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </h3>
+                    <div style="margin:0.8rem;" id="flush-collapse9" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading9" data-bs-parent="#accordionFlushExample">
+                        <div style="padding:1.4rem;" class="accordion-body">
+                            <p> A partida do ISCTE acontecerá por volta das 15:00 horas da tarde. <br>
+                                A hora do check-in que terá início durante a manhã será anunciada em breve.
+
+                            </p>
                         </div>
-                    </a>
-                </h3>
-                <div style="margin:0.8rem;" id="flush-collapse10" class="accordion-collapse collapse"
-                    aria-labelledby="flush-heading10" data-bs-parent="#accordionFlushExample">
-                    <div style="padding:1.4rem;" class="accordion-body">
-                        <p>O preço inclui transporte desde o Iscte até Punta e vice-versa; alojamento para as três
-                            noites; entrada na festa para as três noites; muitas atividades e surpresas ao longo de todo
-                            o fim de semana e um incrível Kit de participante.
-                        </p>
                     </div>
                 </div>
             </div>
-        </div>
 
-
-        <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
-            id="accordionFlushExample">
-            <div class="accordion-item">
-                <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading11">
-                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collaps11">
-                        <div style=" display:flex;align-items: center;justify-content: space-between;">
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i>Posso deslocar-me pelos meus próprios meios até
-                                    Punta Umbria?
-                                </li>
-                            </ul>
+            <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading10">
+                        <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collaps10">
+                            <div style=" display:flex;align-items: center;justify-content: space-between;">
+                                <ul>
+                                    <li><i class="bi bi-check2-all"></i>O que é que está incluído?
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </h3>
+                    <div style="margin:0.8rem;" id="flush-collapse10" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading10" data-bs-parent="#accordionFlushExample">
+                        <div style="padding:1.4rem;" class="accordion-body">
+                            <p>O preço inclui transporte desde o Iscte até Punta e vice-versa; alojamento para as três
+                                noites; entrada na festa para as três noites; muitas atividades e surpresas ao longo de
+                                todo
+                                o fim de semana e um incrível Kit de participante.
+                            </p>
                         </div>
-                    </a>
-                </h3>
-                <div style="margin:0.8rem;" id="flush-collapse11" class="accordion-collapse collapse"
-                    aria-labelledby="flush-heading11" data-bs-parent="#accordionFlushExample">
-                    <div style="padding:1.4rem;" class="accordion-body">
-                        <p> Sim. Mas não te esqueças que tens que fazer obrigatoriamente o check-in no ISCTE. Para além
-                            disso, não garantimos lugar de estacionamento.
-
-                        </p>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
-            id="accordionFlushExample">
-            <div class="accordion-item">
-                <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading13">
-                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collaps13">
-                        <div style=" display:flex;align-items: center;justify-content: space-between;">
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i>Se decidir que não posso ir e já tiver pago, é-me
-                                    feita a devolução de alguma prestação?
-                                </li>
-                            </ul>
+            <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading11">
+                        <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collaps11">
+                            <div style=" display:flex;align-items: center;justify-content: space-between;">
+                                <ul>
+                                    <li><i class="bi bi-check2-all"></i>Posso deslocar-me pelos meus próprios meios até
+                                        Punta Umbria?
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </h3>
+                    <div style="margin:0.8rem;" id="flush-collapse11" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading11" data-bs-parent="#accordionFlushExample">
+                        <div style="padding:1.4rem;" class="accordion-body">
+                            <p> Sim. Mas não te esqueças que tens que fazer obrigatoriamente o check-in no ISCTE. Para
+                                além
+                                disso, não garantimos lugar de estacionamento.
+
+                            </p>
                         </div>
-                    </a>
-                </h3>
-                <div style="margin:0.8rem;" id="flush-collapse13" class="accordion-collapse collapse"
-                    aria-labelledby="flush-heading13" data-bs-parent="#accordionFlushExample">
-                    <div style="padding:1.4rem;" class="accordion-body">
-                        <p> Não, não serão feitas devoluções. Uma vez efetuados os pagamentos, a tua inscrição fica
-                            reservada.
-
-                        </p>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
-            id="accordionFlushExample">
-            <div class="accordion-item">
-                <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading14">
-                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collaps14">
-                        <div style=" display:flex;align-items: center;justify-content: space-between;">
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i>É obrigatório ter cartão europeu de saúde?</li>
-                            </ul>
+            <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading13">
+                        <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collaps13">
+                            <div style=" display:flex;align-items: center;justify-content: space-between;">
+                                <ul>
+                                    <li><i class="bi bi-check2-all"></i>Se decidir que não posso ir e já tiver pago,
+                                        é-me
+                                        feita a devolução de alguma prestação?
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </h3>
+                    <div style="margin:0.8rem;" id="flush-collapse13" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading13" data-bs-parent="#accordionFlushExample">
+                        <div style="padding:1.4rem;" class="accordion-body">
+                            <p> Não, não serão feitas devoluções. Uma vez efetuados os pagamentos, a tua inscrição fica
+                                reservada.
+
+                            </p>
                         </div>
-                    </a>
-                </h3>
-                <div style="margin:0.8rem;" id="flush-collapse14" class="accordion-collapse collapse"
-                    aria-labelledby="flush-heading14" data-bs-parent="#accordionFlushExample">
-                    <div style="padding:1.4rem;" class="accordion-body">
-                        <p> Não, mas apesar disso aconselhamos-te a fazer, de modo, a ires nesta viagem com o máximo de
-                            segurança possível!
-                        </p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
-            id="accordionFlushExample">
-            <div class="accordion-item">
-                <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading15">
-                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse15" aria-expanded="false" aria-controls="flush-collaps15">
-                        <div style=" display:flex;align-items: center;justify-content: space-between;">
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i>Como posso obter o meu cartão europeu de saúde?</li>
-                            </ul>
+
+            <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading14">
+                        <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collaps14">
+                            <div style=" display:flex;align-items: center;justify-content: space-between;">
+                                <ul>
+                                    <li><i class="bi bi-check2-all"></i>É obrigatório ter cartão europeu de saúde?</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </h3>
+                    <div style="margin:0.8rem;" id="flush-collapse14" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading14" data-bs-parent="#accordionFlushExample">
+                        <div style="padding:1.4rem;" class="accordion-body">
+                            <p> Não, mas apesar disso aconselhamos-te a fazer, de modo, a ires nesta viagem com o máximo
+                                de
+                                segurança possível!
+                            </p>
                         </div>
-                    </a>
-                </h3>
-                <div style="margin:0.8rem;" id="flush-collapse15" class="accordion-collapse collapse"
-                    aria-labelledby="flush-heading15" data-bs-parent="#accordionFlushExample">
-                    <div style="padding:1.4rem;" class="accordion-body">
-                        <p> Para pedires o teu Cartão Europeu de Seguro de Doença, que é totalmente gratuito, basta:
-                            Acederes à Segurança Social Direta usando o teu número da Segurança Social > Selecionar o
-                            menu "Doença" > Escolher a opção "Obter Cartão Europeu de Seguro de Doença" > Carregar no
-                            botão "Iniciar pedido" e seguir as instruções
+                    </div>
+                </div>
+            </div>
 
-                        </p>
+            <div class="accordion accordion-flush shadow" style="padding:0.2rem;border-radius:10px;margin-top:0.6rem"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 style="margin:0.8rem;" class="accordion-header" id="flush-heading15">
+                        <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse15" aria-expanded="false" aria-controls="flush-collaps15">
+                            <div style=" display:flex;align-items: center;justify-content: space-between;">
+                                <ul>
+                                    <li><i class="bi bi-check2-all"></i>Como posso obter o meu cartão europeu de saúde?
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </h3>
+                    <div style="margin:0.8rem;" id="flush-collapse15" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading15" data-bs-parent="#accordionFlushExample">
+                        <div style="padding:1.4rem;" class="accordion-body">
+                            <p> Para pedires o teu Cartão Europeu de Seguro de Doença, que é totalmente gratuito, basta:
+                                Acederes à Segurança Social Direta usando o teu número da Segurança Social > Selecionar
+                                o
+                                menu "Doença" > Escolher a opção "Obter Cartão Europeu de Seguro de Doença" > Carregar
+                                no
+                                botão "Iniciar pedido" e seguir as instruções
+
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <p>Para outras informações consulta o guia de inscrições ou dirige-te à secretaria da AEISCTE.</p>
+        <p>Para outras informações consulta o guia de inscrições ou dirige-te à secretaria da AEISCTE.</p>
 </section>
 
 <style>
