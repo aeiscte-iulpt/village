@@ -292,9 +292,9 @@
                     aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
                     <div style="padding:1.4rem;" class="accordion-body">
                         <p> Disponibilizamos neste site todas as informações que precisas para te inscreveres no melhor
-                            fim de semana do teu ano. <a href="">Clica aqui</a> para seres direcionado para o Guia de
+                            fim de semana do teu ano. <a href="https://village.aeiscte-iul.pt/pdf/Guia de Inscrições - Iscte Village.pdf">Clica aqui</a> para seres direcionado para o Guia de
                             Inscrição.
-                            (-----inserir o link do guia de inscrição------)</p>
+                            </p>
 
                     </div>
                 </div>
