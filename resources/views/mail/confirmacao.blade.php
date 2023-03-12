@@ -254,7 +254,7 @@
                                                                     style="overflow:hidden;width:600px;padding:0 0 20px 0;">
                                                                     <h1 class=t21
                                                                         style="font-family:BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif, 'Albert Sans';line-height:28px;font-weight:800;font-style:normal;font-size:26px;text-decoration:none;text-transform:none;letter-spacing:-1.04px;direction:ltr;color:#191919;text-align:left;mso-line-height-rule:exactly;mso-text-raise:1px;">
-                                                                        Parabéns!! Inscrição confirmada</h1>
+                                                                        🎉 Felicitaciones, fiestero! 🎉</h1>
                                                                 </td>
                                                             </tr>
                                                         </table>
@@ -269,27 +269,79 @@
                                                                     style="overflow:hidden;width:600px;padding:0 0 22px 0;">
                                                                     <p class=t110
                                                                         style="font-family:BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif, 'Albert Sans';line-height:22px;font-weight:500;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;letter-spacing:-0.56px;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">
-                                                                        Todo bien compañero? <br>
-                                                                        Completaste a tua pré-inscrição e estás a um passo mais perto de iniciar viagem rumo a Punta! <br> <br>
-                                                                        O teu <b>TOKEN</b> de  viajante é <b>{{$data['code']}}</b>. <br> <br>
-                                                                        É muito importante que guardes este Token pois vais precisar dele para prosseguir para o próximo passo do processo de inscrição!
+                                                                        Já tens o teu lugar quase assegurado no próximo
+                                                                        autocarro a caminho de Punta!
+                                                                        <br><br>
+                                                                        O ID do Quarto <b>{{$data['nome_quarto']}}</b> é
+                                                                        <b>{{$data['code']}}</b>. Mas… no hacerse de la
+                                                                        vista gorda porque o último passo antes de
+                                                                        começares a
+                                                                        fazer as malas é <b>realizares</b> o
+                                                                        <b>pagamento</b> para
+                                                                        concluíres a inscrição!
+                                                                        <br> <br>
+                                                                        O responsável do bungalow, acompanhado deste ID,
+                                                                        deve dirigir-se à secretaria da Associação de
+                                                                        Estudantes do ISCTE-IUL, entre os dias <b>20</b>
+                                                                        e <b>24</b>
+                                                                        de Março, para realizarem o pagamento da
+                                                                        primeira prestação, com o valor de <b>45</b>
+                                                                        AE’s por
+                                                                        pessoa (<b>40</b> AE’s para sócios e bolseiros).
+                                                                        Como responsável de apartamento, relembramos os
+                                                                        documentos que deves levar de <b>todos</b> os
+                                                                        <b>membros</b>
+                                                                        do teu quarto:
+                                                                        <br> <br>
+                                                                        1- Mostrar email de confirmação da vaga;<br>
+                                                                        2- Fotocópia do cartão de cidadão de cada
+                                                                        elemento assinada;<br>
+                                                                        3- Fotocópia do PDF do comprovativo de matrícula
+                                                                        caso seja atual estudante (consulta o guia de
+                                                                        inscrição para saberes como podes ter acesso a
+                                                                        este documento) ou print do currículo de
+                                                                        estudante no fénix caso seja alumni;<br>
+                                                                        4- Declaração de tratamento de dados pessoais de
+                                                                        cada elemento;
+
                                                                         <br>
-                                                                        Atenção, no momento de inscrição online aconselhamos que o teu token seja copiado e não transcrito para evitar erros nos carateres.
+                                                                        5- Termos de responsabilidade de cada
+                                                                        elemento;<br>
+                                                                        <a
+                                                                            href="https://drive.google.com/drive/folders/1vnSaxaSzNeXqijscD-bg0lbfaB4cFtrE?usp=share_link"><b>Clica
+                                                                                AQUI para acederes a todos os documentos
+                                                                                necessários!</b></a>
                                                                         <br><br>
-                                                                        Podes encontrar o guia de inscrição bem como uma secção de perguntas frequentes no website do fim de semana – <a href="https://village.aeiscte-iul.pt/"><b>AQUI</b></a> 
+                                                                        - Caso algum dos membros seja sócio/bolseiro
+                                                                        devem mostrar o comprovativo (o comprovativo de
+                                                                        bolseiro está disponível no fénix > estatutos).
+
                                                                         <br><br>
-                                                                        Caso tenhas dúvidas ou pretendas alterar algum dado não hesites em passar pela secretaria da AEISCTE, para te podermos ajudar, ou, em último caso, envia um email para <a href="mailto:fimdesemana@iscte-iul.pt"><b>fimdesemana@iscte-iul.pt</b></a>  . 
+                                                                        Relativamente à <b>segunda prestação</b>, têm
+                                                                        entre o
+                                                                        dia <b>17</b> de abril e <b>21</b> de abril para
+                                                                        realizarem o
+                                                                        pagamento, também na secretaria da AEISCTE com
+                                                                        os mesmos valores da primeira prestação.
+
                                                                         <br><br>
-                                                                        Começa já a juntar os teus compañeros e prepara-te para mais uma edição do fantástico Iscte Village.
+                                                                        A viagem está a aproximar-se e já deves estar
+                                                                        como una cabra para pisar terreno espanhol!<br>
+                                                                        Prepara as malas, hasta la vista chic@!
+                                                                        <br><br>
+                                                                        ps.: Caso te apresentes como menor de idade no
+                                                                        momento da viagem para Punta Umbria dirige-te,
+                                                                        por favor, à secretaria da AEISCTE para
+                                                                        receberes algumas informações necessárias
                                                                         <br><br>
                                                                         Estás listo para la punta da loucura?
-                                                                                                                                       </p>
+                                                                    </p>
                                                                 </td>
                                                             </tr>
                                                         </table>
                                                     </td>
                                                 </tr>
-                                                
+
 
                                                 <tr>
                                                     <td>

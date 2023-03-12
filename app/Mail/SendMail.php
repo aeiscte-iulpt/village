@@ -32,7 +32,7 @@ class SendMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Iscte Village: Pré-Inscrição',
+            subject: '🎉 Iscte Village: Felicitaciones, fiestero! 🎉',
         );
     }
 
