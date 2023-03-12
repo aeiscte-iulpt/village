@@ -33,7 +33,7 @@ class PageController extends Controller
         $todos= Inscritos::where('nome_quarto',$nome_quarto)->get();
         $verificar_atual_aluno= Inscritos::where('nome_quarto',$nome_quarto)->where('situacao_atual',"Alumni")->first();
         $contagem= Inscritos::where('aceite',1)->count();
-        if ($contagem <= 0) {
+        if ($contagem <= 86) {
             if($quarto->aceite == 0){
                 if (!isset($verificar_atual_aluno)) {
                     $quarto->aceite =1;
