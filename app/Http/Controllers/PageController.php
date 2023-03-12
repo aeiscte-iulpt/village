@@ -24,60 +24,14 @@ class PageController extends Controller
        
         $this->validate($request,[
             'nome_quarto' => 'required',
-            'nome1'   =>  'required',
-            'email1'   =>  'required',
-            'date1'   =>  'required',
-            'ndi1'    =>  'required',
-            'phone1'        =>  'required',
-            'phone_emerg1'   =>  'required',
-            'situacao1'   =>  'required',
-            'n_aluno1'    =>  'required',
-            'transporte1'        =>  'required',
-            'curso1'    =>  'required',
-            'ano_cu1'        =>  'required',     
-
-            'nome2'   =>  'required',
-            'email2'   =>  'required',
-            'date2'   =>  'required',
-            'ndi2'    =>  'required',
-            'phone2'        =>  'required',
-            'phone_emerg2'   =>  'required',
-            'situacao2'   =>  'required',
-            'n_aluno2'    =>  'required',
-            'transporte2'        =>  'required',
-            'curso2'    =>  'required',
-            'ano_cu2'        =>  'required',
-
-            'nome3'   =>  'required',
-            'email3'   =>  'required',
-            'date3'   =>  'required',
-            'ndi3'    =>  'required',
-            'phone3'        =>  'required',
-            'phone_emerg3'   =>  'required',
-            'situacao3'   =>  'required',
-            'n_aluno3'    =>  'required',
-            'transporte3'        =>  'required',
-            'curso3'    =>  'required',
-            'ano_cu3'        =>  'required',
-
-            'nome4'   =>  'required',
-            'email4'   =>  'required',
-            'date4'   =>  'required',
-            'ndi4'    =>  'required',
-            'phone4'        =>  'required',
-            'phone_emerg4'   =>  'required',
-            'situacao4'   =>  'required',
-            'n_aluno4'    =>  'required',
-            'transporte4'        =>  'required',
-            'curso4'    =>  'required',
-            'ano_cu4'        =>  'required'
+            'token'   =>  'required',
         ]);
 
         /*$count6 = Inscritos::all()->count();*/
-        $inscrito1 = Inscritos::where('n_aluno',$request->n_aluno1)->first();
-        $inscrito2 = Inscritos::where('n_aluno',$request->n_aluno2)->first();
-        $inscrito3 = Inscritos::where('n_aluno',$request->n_aluno3)->first();
-        $inscrito4 = Inscritos::where('n_aluno',$request->n_aluno4)->first();
+        $quarto = Inscritos::where('code',$request->token)->first();
+        $nome_quarto=$quarto->nome_quarto;
+        $todos= Inscritos::where('nome_quarto',$nome_quarto)->get();
+        dd($todos);
       
            /** colocar 200 */
         
