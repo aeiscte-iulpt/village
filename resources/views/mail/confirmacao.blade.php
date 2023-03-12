@@ -282,7 +282,7 @@
                                                                         <br> <br>
                                                                         O responsável do bungalow, acompanhado deste ID,
                                                                         deve dirigir-se à secretaria da Associação de
-                                                                        Estudantes do ISCTE-IUL, entre os dias <b>20</b>
+                                                                        Estudantes do Iscte, entre os dias <b>20</b>
                                                                         e <b>24</b>
                                                                         de Março, para realizarem o pagamento da
                                                                         primeira prestação, com o valor de <b>45</b>
