@@ -106,7 +106,7 @@
     <div class="breadcrumbs-custom context-dark bg-overlay-60" style="height:20rem !important">
         <div class="container">
             <h2 class="breadcrumbs-custom-title shadow"
-                style="position:absolute; top:40%;right:0;bottom:0;left:0; color:#fdc929"><b>PRÉ-INSCRIÇÕES</b></h2>
+                style="position:absolute; top:40%;right:0;bottom:0;left:0; color:#fdc929"><b>INSCRIÇÕES</b></h2>
         </div>
         <div class="box-po" style="background: #0000007d; width: 111%;height: 217%;margin-top: -7rem !important;">
 
