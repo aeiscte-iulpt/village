@@ -34,7 +34,7 @@ class PageController extends Controller
         $verificar_atual_aluno= Inscritos::where('nome_quarto',$nome_quarto)->where('situacao_atual',"Alumni")->first();
         
         if($quarto->aceite == 0){
-            if (isset($verificar_atual_aluno)) {
+            if (!isset($verificar_atual_aluno)) {
                 $quarto->aceite =1;
                 $quarto->save();
             
