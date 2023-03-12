@@ -280,7 +280,7 @@
                                                                         <b>pagamento</b> para
                                                                         concluíres a inscrição!
                                                                         <br> <br>
-                                                                        O responsável do bungalow, acompanhado deste ID,
+                                                                        O responsável do quarto, acompanhado deste ID,
                                                                         deve dirigir-se à secretaria da Associação de
                                                                         Estudantes do Iscte, entre os dias <b>20</b>
                                                                         e <b>24</b>
