@@ -42,7 +42,9 @@ class PageController extends Controller
                         'nome_quarto' => $quarto->nome_quarto,
                         'code'  => $quarto->aceite,
                     ];
-                    Mail::to($quarto->email)->send(new SendMail($data));
+                    foreach ($todos as $membro) {
+                        Mail::to($membro->email)->send(new SendMail($data));
+                    }
                     return  back()->with('success', ' Parabéns!!! Conseguiste lugar no melhor village de sempre! Verifica no teu email, a confirmação. Se não encontrares está no spam! ');
                 }else{
                     return  back()->with('erro', ' OOOPPSS! Tens alumnis no teu quarto. Vais poder tentar inscrever-te amanhã... Boa sorte :) ');
