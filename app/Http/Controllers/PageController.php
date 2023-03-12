@@ -32,16 +32,18 @@ class PageController extends Controller
         $nome_quarto=$quarto->nome_quarto;
         $todos= Inscritos::where('nome_quarto',$nome_quarto)->get();
         $verificar_atual_aluno= Inscritos::where('nome_quarto',$nome_quarto)->where('situacao_atual',"Alumni")->first();
-        
+        $contagem= Inscritos::where('aceite',1)->count();
+        dd($contagem);
+
         if($quarto->aceite == 0){
             if (!isset($verificar_atual_aluno)) {
                 $quarto->aceite =1;
                 $quarto->save();
-            
                 return  back()->with('success', 'Parabéns!!! Conseguiste lugar no melhor village de sempre! Verifica no teu email, a confirmação. Se não encontrares está no spam!');
             }else{
                 return  back()->with('erro', 'OOOPPSS! Tens alumnis no teu quarto. Vais poder tentar inscrever-te amanhã... Boa sorte :)');
             }
+
         }else{
             return  back()->with('erro', 'OOOPPSS! Este quarto já tinha sido inscrito para ir ao melhor village de sempre!');
         }
