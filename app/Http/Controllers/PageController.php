@@ -38,6 +38,11 @@ class PageController extends Controller
                 if (!isset($verificar_atual_aluno)) {
                     $quarto->aceite =$contagem + 20;
                     $quarto->save();
+                    $data = [
+                        'nome_quarto' => $quarto->nome_quarto,
+                        'code'  => $quarto->aceite,
+                    ];
+                    Mail::to($quarto->email)->send(new SendMail($data));
                     return  back()->with('success', ' Parabéns!!! Conseguiste lugar no melhor village de sempre! Verifica no teu email, a confirmação. Se não encontrares está no spam! ');
                 }else{
                     return  back()->with('erro', ' OOOPPSS! Tens alumnis no teu quarto. Vais poder tentar inscrever-te amanhã... Boa sorte :) ');
