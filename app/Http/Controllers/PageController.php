@@ -27,7 +27,6 @@ class PageController extends Controller
             'token'   =>  'required',
         ]);
 
-        /*$count6 = Inscritos::all()->count();*/
         $quarto = Inscritos::where('code',$request->token)->first();
         $nome_quarto=$quarto->nome_quarto;
         $todos= Inscritos::where('nome_quarto',$nome_quarto)->get();

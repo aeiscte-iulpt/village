@@ -145,19 +145,20 @@
             @endif
             <form id="form-submit" class="row g-3" action="{{ url('/inscricao-2023') }}" method="post">
                 @csrf
-                <div class="col-md-3"></div>
+            
 
-                <div class="col-md-6 text-center">
+                <div class="col-md-5 text-center">
                     <label for="inputEmail4" class="form-label">Nome do Quarto<b style="color:#cf1c29">*</b></label>
                     <input type="text" name="nome_quarto" class="form-control" id="inputEmail4">
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-5 text-center">
                     <label for="inputEmail4" class="form-label">Token<b style="color:#cf1c29">*</b></label>
                     <input type="text" name="token" class="form-control" id="inputEmail4">
                 </div>
-                <button type="submit" class="btn btn-sm nav-link nav-link-ltr" style="margin-top:2rem;padding:0.8rem;width:30%;font-weight:bold; color:#e30613;background-color:var(--bs-btn-hover-bg);
+                <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-sm nav-link nav-link-ltr" style="margin-top:2rem;padding:0.8rem;width:30%;font-weight:bold; color:#e30613;background-color:var(--bs-btn-hover-bg);
     border-color: var(--bs-btn-hover-border-color);">Inscrever</button>
-
+                </div>
             </form>
 
 
