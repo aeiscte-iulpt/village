@@ -54,7 +54,7 @@ class PageController extends Controller
                 return  back()->with('erro', ' OOOPPSS! Este quarto já tinha sido inscrito para ir ao melhor village de sempre! ');
             }
         }else{
-            dd($contagem);
+            
             if ($contagem <= 4) {
                 if (!isset($verificar_atual_aluno)) {
                     $quarto->aceite =$contagem + 1000;
