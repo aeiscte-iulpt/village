@@ -65,7 +65,7 @@ class PageController extends Controller
                     foreach ($todos as $membro) {
                         Mail::to($membro->email)->send(new SendMailEspera($data));
                     }
-                    return  back()->with('success', 'Infelizmente não tens lugar garantido, mas econtras-te na lista de espera!! Verifica no teu email a confirmação. Se não encontrares está no spam! ');
+                    return  back()->with('success', 'Infelizmente não tens lugar garantido, mas encontras-te na lista de espera!! Verifica no teu email a confirmação. Se não encontrares está no spam! ');
                 }else{
                     return  back()->with('erro', ' OOOPPSS! Tens alumnis no teu quarto. Vais poder tentar inscrever-te amanhã... Boa sorte :) ');
                 }            
