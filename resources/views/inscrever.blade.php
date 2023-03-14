@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<script
+    <script
         src="https://wait.crowdhandler.com/js/latest/main.js?id=bafd15ec3d6de8f58116f0d26c3bb2ccbca9938127e159f1dcde2c14b3594c15">
     </script>
 <style>
