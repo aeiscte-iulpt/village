@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Inscritos;
 use Illuminate\Support\Str;
 use App\Mail\SendMail;
+use App\Mail\SendMailEspera;
 use Illuminate\Support\Facades\Mail;
 
 class PageController extends Controller
@@ -32,14 +33,14 @@ class PageController extends Controller
         $todos= Inscritos::where('nome_quarto',$nome_quarto)->get();
         $verificar_atual_aluno= Inscritos::where('nome_quarto',$nome_quarto)->where('situacao_atual',"Alumni")->first();
         $contagem= Inscritos::where('aceite','!=', 0)->count();
-        if ($contagem <= 86) {
+        if ($contagem <= 3) {
             if($quarto->aceite == 0){
                 if (!isset($verificar_atual_aluno)) {
                     $quarto->aceite =$contagem + 20;
                     $quarto->save();
                     $data = [
                         'nome_quarto' => $quarto->nome_quarto,
-                        'code'  => $quarto->aceite,
+                        'code' => $quarto->aceite,
                     ];
                     foreach ($todos as $membro) {
                         Mail::to($membro->email)->send(new SendMail($data));
@@ -53,7 +54,24 @@ class PageController extends Controller
                 return  back()->with('erro', ' OOOPPSS! Este quarto já tinha sido inscrito para ir ao melhor village de sempre! ');
             }
         }else{
-            return  back()->with('erro', ' OOOPPSSS! Infelizmente não conseguiste  :( ');
+            if ($contagem <= 4) {
+                if (!isset($verificar_atual_aluno)) {
+                    $quarto->aceite ="ESPERA";
+                    $quarto->save();
+                    $data = [
+                        'nome_quarto' => $quarto->nome_quarto,
+                        'code' => $quarto->aceite,
+                    ];
+                    foreach ($todos as $membro) {
+                        Mail::to($membro->email)->send(new SendMailEspera($data));
+                    }
+                    return  back()->with('success', 'Infelizmente não tens lugar garantido, mas econtras-te na lista de espera!! Verifica no teu email a confirmação. Se não encontrares está no spam! ');
+                }else{
+                    return  back()->with('erro', ' OOOPPSS! Tens alumnis no teu quarto. Vais poder tentar inscrever-te amanhã... Boa sorte :) ');
+                }            
+            }else{
+                return  back()->with('erro', ' OOOPPSSS! Infelizmente não conseguiste  :( ');
+            }
         }
     }
 }
