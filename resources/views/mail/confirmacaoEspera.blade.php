@@ -278,13 +278,14 @@
                                                                         receber, mas... Não desanimes!
 
                                                                         <br> <br>
-                                                                        O ID do/da teu/tua inscrição é “INSERIR NÚMERO
-                                                                        DE INSCRIÇÃO” e encontras-te neste momento em
+                                
+                                                                        O ID do/da teu/tua inscrição é {{$data['code']}}
+                                                                        e encontras-te neste momento em
                                                                         lista de espera para ocupar uma vaga, caso
                                                                         existam desistências.
                                                                         <br><br>
                                                                         Ao longo desta semana irão ocorrer as
-                                                                        confirmações finais dos bungalows que se
+                                                                        confirmações finais dos quartos que se
                                                                         conseguiram inscrever e, caso consigas garantir
                                                                         uma vaga por desistência de algum dos inscritos,
                                                                         não te preocupes que entraremos em contacto
