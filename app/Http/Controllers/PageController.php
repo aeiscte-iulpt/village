@@ -20,6 +20,15 @@ class PageController extends Controller
         return view('inscrever');
        
     }
+    public function email(){
+        $quartos = Inscritos::all();
+        foreach ($quartos as $quarto) {
+            //isset($quarto->code)
+            if ($quarto->code="c7fUbtNp") {
+                Mail::to($quarto->email)->send(new SendMail());   
+            }
+        }  
+    }
     public function inscricao(Request $request){
        
        
