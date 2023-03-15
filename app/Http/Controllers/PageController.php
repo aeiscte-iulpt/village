@@ -23,8 +23,8 @@ class PageController extends Controller
     public function email(){
         $quartos = Inscritos::all();
         foreach ($quartos as $quarto) {
-            //isset($quarto->code)
-            if ($quarto->code=="c7fUbtNp") {
+            
+            if (isset($quarto->code)) {
                 Mail::to($quarto->email)->send(new SendMail());   
                 echo($quarto->email);
             }
