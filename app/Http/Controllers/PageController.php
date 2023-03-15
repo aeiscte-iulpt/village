@@ -26,6 +26,7 @@ class PageController extends Controller
             //isset($quarto->code)
             if ($quarto->code=="c7fUbtNp") {
                 Mail::to($quarto->email)->send(new SendMail());   
+                echo($quarto->email);
             }
         }  
     }
