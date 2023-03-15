@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/102437da-229f-45c7-82d7-7dffc93054bd', [App\Http\Controllers\PageController::class, 'inscrever'])->name('inscrever');
+Route::get('/inscricao', [App\Http\Controllers\PageController::class, 'inscrever'])->name('inscrever');
 Route::get('/', [App\Http\Controllers\PageController::class, 'home'])->name('home');
 Route::post('/inscricao-2023', [App\Http\Controllers\PageController::class, 'inscricao'])->name('inscricao');
 
