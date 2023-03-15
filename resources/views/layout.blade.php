@@ -21,7 +21,9 @@
     <script defer src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js'></script>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css'>
     <script src=”http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js”></script>
-   
+    <script
+        src="https://wait.crowdhandler.com/js/latest/main.js?id=bafd15ec3d6de8f58116f0d26c3bb2ccbca9938127e159f1dcde2c14b3594c15">
+    </script>
 </head>
 
 <style>
@@ -66,19 +68,15 @@ body {
                         <a class="nav-link nav-link-ltr" style="font-weight:bold; color:#fff;" href="#FAQ">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-ltr" style="font-weight:bold; color:#fff;" href="#anos_anteriores">Anos Anteriores</a>
+                        <a class="nav-link nav-link-ltr" style="font-weight:bold; color:#fff;"
+                            href="#anos_anteriores">Anos Anteriores</a>
                     </li>
 
-
                     <!--<li class="nav-item">
-                        <button onclick="location.href='https://www.village.aeiscte-iul.pt/preinscricao'"
+                        <button onclick="location.href='https://www.village.aeiscte-iul.pt/inscricao'"
                             class="btn btn-sm nav-link nav-link-ltr" style="font-weight:bold; color:#e30613;background-color: var(--bs-btn-hover-bg);
-    border-color: var(--bs-btn-hover-border-color);">Pré-Inscrição</button>
-
+    border-color: var(--bs-btn-hover-border-color);">Inscrição</button>
                     </li>-->
-
-
-                    <!---->
                 </ul>
             </div>
         </div>

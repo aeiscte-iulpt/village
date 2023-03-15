@@ -83,7 +83,6 @@
         height: 100vh !important;
         background-repeat: no-repeat;
         width: 100vw !important;
-
         /*.al {margin-left:7rem;margin-right:7rem;}*/
     }
 
@@ -134,10 +133,10 @@
     border-color: var(--bs-btn-hover-border-color);padding:0.5rem;">Guia de Inscrições</button>
 
     </div>
-   <!-- <div class="col-md-12 text-center d-flex justify-content-center butoes ">
-        <button onclick="location.href='https://www.village.aeiscte-iul.pt/preinscricao'"
+    <!-- <div class="col-md-12 text-center d-flex justify-content-center butoes ">
+        <button onclick="location.href='https://www.village.aeiscte-iul.pt/inscricao'"
             class="btn btn-sm nav-link nav-link-ltr" style="margin-top:1rem;font-weight:bold; color:#e30613;background-color: var(--bs-btn-hover-bg);
-    border-color: var(--bs-btn-hover-border-color);padding:0.5rem;">Pré-Inscrição</button>
+    border-color: var(--bs-btn-hover-border-color);padding:0.5rem;">Inscrição</button>
     </div>-->
     <div class="col-md-12 text-center vamos">
         <img src="img/Logo_Branco_Simples.png" style="padding-top: 11vh;width: 5rem;" alt="Example image"
@@ -218,10 +217,7 @@
                                         </p>
                                     </div>
                                 </div>
-
-
                             </div>
-
                         </div>
                     </div>
                 </div>
