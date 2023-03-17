@@ -5,10 +5,6 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Iscte Village">
-    <meta property="og:type" content="article" />
-    <meta property="og:image" content="https://village.aiscte-iul.pt/img/homepc.jpeg">
-    <meta property="og:url" content="https://village.aiscte-iul.pt/">
     <title>Iscte Village</title>
     <link rel="icon" href="{{ asset('img/Logo_Branco_Simples.png') }}" type="image/x-icon">
     <!-- Fonts -->
